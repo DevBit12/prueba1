@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="shortcut icon" href="./assets/Diana.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <div class="search-box">
+        <label for="search">Buscar</label>
+        <input type="search" id="search" />
+      </div>
+    
+      <h1>Sobre mi</h1>
+    
+      <figure>
+        <img src="./assets/me.jpg" alt="Diana" />
+      </figure>
+    
+      <nav>
+        <ul class="list1">
+          <li><a href="#Perfil">Perfil</a></li>
+          <li><a href="#Experiencia">Experiencia</a></li>
+          <li><a href="#Habilidades">Habilidades</a></li>
+          <li><a href="#preferencias">Preferencias</a></li>
+          <li><a href="#datosRandom">Datos Random</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#referencias">Referencias</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- Contenido principal -->
+    <div class="contenido">
+      <main>
+        <section id="perfil">
+          <h2>Perfil</h2>
+          <p>
+            Ingeniera industrial, con conocimientos en auditoria de riesgos.
+            Amplia experiencia en gestion de proyectos de TI como Scrum Master,
+            creacion de backlog, definicion de producto, analisis de
+            requerimientos.
+          </p>
+        </section>
+
+        <section id="Experiencia">
+          <h2 class="title2">Experiencia</h2>
+          <ul>
+            <li>Analista QA - Empresa</li>
+            <li>Analista de requerimientos - Empresa</li>
+            <li>Scrum Master - Empresa</li>
+          </ul>
+        </section>
+
+        <section id="Habilidades">
+          <h2 class="title2">Habilidades</h2>
+          <p>Trabajo en equipo</p>
+          <br />
+          <p>Definicion del backlog de proyectos de TI</p>
+        </section>
+        <section id="preferencias">
+          <h2 class="title2">Preferencias</h2>
+          <p>Potenciar habiliades en los equipos de trabajo, capacitando</p>
+        </section>
+        <section id="datosRandom">
+          <h2 class="title2">Datos Random</h2>
+          <p>
+            Soy ingeniera industrial de profesion, sin embargo tengo experiencia
+            en otros ambientes
+          </p>
+          <ul>
+            <li>Pruebas QA</li>
+            <p>
+              Realizar pruebas funcionales de caja negra, caja blanca,
+              performance,...
+            </p>
+            <dt>Pruebas de caja negra</dt>
+            <dd>
+              Son pruebas que se hacen a la interfaz de usuario para comprobar
+              el funcionamiento y las respuestas
+            </dd>
+            <dt>Pruebas de caja blanca</dt>
+            <dd>
+              Pruebas que se hacen al codigo para validar el almacenamiento de
+              la DB, respuesta de servicios,...
+            </dd>
+            <dt>Pruebas de performance</dt>
+            <dd>
+              Pruebas que se hacen para validar el rendimiento de una
+              aplicacion, la cual se somete a un estres de conexiones y/o
+              peticiones a los servicios
+            </dd>
+          </ul>
+        </section>
+        <section>
+          <h2 class="title2">Receta Favorita</h2>
+          <a href="./LessonHTML/receta.html">Arroz con leche</a>
+        </section>
+      </main>
+
+      <aside>
+        <section id="Hobbies">
+          <h2 class="title2">Hobbies</h2>
+          <h3 class="title3">Cancion favorita</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wlNplxA_OgA?si=GrF_79ewGJ4rJhVD"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="referencias">
+          <h2 class="title2">Referencias</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Celular</th>
+                <th>Rol</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Alguien</td>
+                <td>12345678</td>
+                <td>Professional</td>
+              </tr>
+              <tr>
+                <td>Otro</td>
+                <td>12345678</td>
+                <td>Professional</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="contacto">
+          <h2 class="title2">Contacto</h2>
+          <form>
+            <label for="name">Nombre</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Nombre Completo"
+              required
+            />
+            <label for="numero">Numero</label>
+            <input type="number" id="numero" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+            <label for="mensaje">mensaje</label>
+            <textarea id="mensaje" placeholder="Escriba su mensaje"></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </aside>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+      <a href="./LessonHTML/contact.html">Contactame</a>
+      <a
+        href="https://www.linkedin.com/feed/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >linkedin</a
+      >
+    </footer>
+  </body>
+</html>
